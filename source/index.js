@@ -2,7 +2,6 @@
 
 function MyArrayProto() {
     this.flat = function (depth=1) {
-        // debugger;
         let result = new MyArray();
         if (this.length === 0 || depth <= 0) {
             return this;
